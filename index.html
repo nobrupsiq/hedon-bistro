@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hedon Bistrô Café & Bar — O Melhor Brunch de Saquarema</title>
+    <meta
+      name="description"
+      content="Hedon Bistrô: cafeteria, bar e restaurante de brunch nº 1 de Saquarema. Nota 5.0 no Tripadvisor. Torrada Petrópolis, croissants, quiches e cafés especiais. Reserve sua mesa pelo WhatsApp."
+    />
+    <meta
+      property="og:title"
+      content="Hedon Bistrô Café & Bar — O Melhor Brunch de Saquarema"
+    />
+    <meta
+      property="og:description"
+      content="Nota 5.0 no Tripadvisor · Travelers' Choice. Reserve sua mesa e viva a experiência do brunch mais amado de Saquarema."
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bar">
+      ☕ Aberto de segunda a sábado, 8h30 às 20h —
+      <strong>reserve sua mesa pelo WhatsApp e garanta seu brunch</strong>
+    </div>
+
+    <nav>
+      <div class="wrap nav-inner">
+        <a class="logo" href="#">Hedon <span>Bistrô</span></a>
+        <ul class="nav-links">
+          <li><a href="#menu">Cardápio</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#visite">Como chegar</a></li>
+        </ul>
+        <a
+          class="btn btn-wa btn-sm"
+          href="https://wa.me/5522999073130?text=Ol%C3%A1!%20Quero%20reservar%20uma%20mesa%20no%20Hedon%20Bistr%C3%B4%20%E2%98%95"
+          target="_blank"
+          rel="noopener"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm5.7 14.1c-.2.7-1.4 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5.2.6.8 2 .9 2.1.1.1.1.3 0 .5-.1.2-.2.3-.3.5l-.5.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1.1 2.2 1.4 2.5 1.5.3.1.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.3.7-.2.3.1 1.8.8 2.1 1 .3.2.5.2.6.4.1.1.1.7-.1 1.4Z"
+            />
+          </svg>
+          Reservar mesa
+        </a>
+      </div>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <header class="hero">
+      <canvas class="fx-canvas" id="fx-hero" aria-hidden="true"></canvas>
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow"
+            ><span class="stars">★★★★★</span> Nota 5.0 no Tripadvisor ·
+            Travelers' Choice</span
+          >
+          <h1>O brunch <em>nº 1</em> de Saquarema te espera</h1>
+          <p class="lead">
+            Cafés especiais, croissants folhados, quiches artesanais e a famosa
+            <strong>Torrada Petrópolis</strong> — tudo em um bistrô acolhedor a
+            minutos da praia. Reserve agora e chegue com a mesa pronta.
+          </p>
+          <div class="hero-ctas">
+            <a
+              class="btn btn-wa"
+              href="https://wa.me/5522999073130?text=Ol%C3%A1!%20Quero%20reservar%20uma%20mesa%20no%20Hedon%20Bistr%C3%B4%20%E2%98%95"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm5.7 14.1c-.2.7-1.4 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5.2.6.8 2 .9 2.1.1.1.1.3 0 .5-.1.2-.2.3-.3.5l-.5.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1.1 2.2 1.4 2.5 1.5.3.1.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.3.7-.2.3.1 1.8.8 2.1 1 .3.2.5.2.6.4.1.1.1.7-.1 1.4Z"
+                />
+              </svg>
+              Reservar pelo WhatsApp
+            </a>
+            <a class="btn btn-ghost" href="#menu">Ver o cardápio ↓</a>
+          </div>
+          <p class="hero-note">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M20 6 9 17l-5-5" />
+            </svg>
+            Resposta em minutos · Sem taxa de reserva · Pet friendly 🐾
+          </p>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="ph">
+              <img
+                src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?q=80&w=1200&auto=format&fit=crop"
+                alt="Mesa de brunch com café, croissants e frutas"
+                loading="eager"
+              />
+            </div>
+            <div class="cap">
+              <b>Brunch Hedon completo</b>
+              <span>o favorito da casa ❤️</span>
+            </div>
+          </div>
+          <div class="float-badge fb-1">
+            <span class="big">5.0</span> <span>Avaliação<br />Tripadvisor</span>
+          </div>
+          <div class="float-badge fb-2">
+            🏆 <span>Nº 1 em cafeterias<br />de Saquarema</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============ PROOF ============ -->
+    <div class="proof">
+      <div class="wrap proof-grid">
+        <div class="proof-item">
+          <div class="num">5.0★</div>
+          <div class="lbl">Nota máxima no Tripadvisor</div>
+        </div>
+        <div class="proof-item">
+          <div class="num">Nº 1</div>
+          <div class="lbl">Cafeteria de Saquarema</div>
+        </div>
+        <div class="proof-item">
+          <div class="num">54</div>
+          <div class="lbl">Lugares em 2 salões</div>
+        </div>
+        <div class="proof-item">
+          <div class="num">100%</div>
+          <div class="lbl">Feito artesanalmente</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ MENU ============ -->
+    <section id="menu">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">O cardápio</span>
+          <h2>Sabores que fazem valer a viagem</h2>
+          <p>
+            Do café da manhã ao fim de tarde: receitas artesanais preparadas na
+            hora, com ingredientes frescos.
+          </p>
+        </div>
+        <div class="menu-grid">
+          <div class="card reveal">
+            <div class="ph">
+              <span class="tag">Mais pedido</span>
+              <img
+                src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=900&auto=format&fit=crop"
+                alt="Torrada Petrópolis com ovos e tomate"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Torrada Petrópolis</h3>
+              <p>
+                A bruschetta que os clientes chamam de "sensacional": pão
+                artesanal tostado na manteiga com cobertura generosa. O prato
+                símbolo da casa.
+              </p>
+              <span class="from">Peça com um café coado na hora ☕</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="ph">
+              <span class="tag">Para compartilhar</span>
+              <img
+                src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=900&auto=format&fit=crop"
+                alt="Mesa de brunch completa"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Brunch Hedon</h3>
+              <p>
+                A experiência completa: quiches, croissants, bolos, pães, frutas
+                e bebidas — a opção com melhor custo-benefício para casais e
+                famílias.
+              </p>
+              <span class="from">O favorito de quem visita pela 1ª vez</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="ph">
+              <span class="tag">Doces & cafés</span>
+              <img
+                src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=900&auto=format&fit=crop"
+                alt="Café especial com latte art"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Cafés especiais & confeitaria</h3>
+              <p>
+                Bolos, tortas e croissants folhados saídos do forno,
+                acompanhados de cafés preparados com carinho — do espresso ao
+                cappuccino cremoso.
+              </p>
+              <span class="from">Também servimos vinhos e cervejas 🍷</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="exp" id="experiencia">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">A experiência</span>
+          <h2>Muito mais que um café</h2>
+          <p>
+            Dois salões decorados com charme, trilha sonora elogiada nas
+            avaliações e atendimento que trata cada cliente pelo nome.
+          </p>
+        </div>
+        <div class="exp-grid">
+          <div class="exp-item reveal">
+            <div class="ico">🐾</div>
+            <h3>Pet friendly</h3>
+            <p>
+              Seu melhor amigo é bem-vindo. Traga seu pet e aproveite a área
+              externa juntos.
+            </p>
+          </div>
+          <div class="exp-item reveal">
+            <div class="ico">🧸</div>
+            <h3>Playground para as crianças</h3>
+            <p>
+              Espaço para os pequenos brincarem enquanto você aproveita seu
+              brunch em paz.
+            </p>
+          </div>
+          <div class="exp-item reveal">
+            <div class="ico">📶</div>
+            <h3>WiFi grátis</h3>
+            <p>
+              Perfeito para trabalhar remotamente com um bom café ao lado —
+              fique o quanto quiser.
+            </p>
+          </div>
+          <div class="exp-item reveal">
+            <div class="ico">🌿</div>
+            <h3>Área externa</h3>
+            <p>
+              Mesas ao ar livre para aproveitar o clima de Saquarema com
+              conforto.
+            </p>
+          </div>
+          <div class="exp-item reveal">
+            <div class="ico">♿</div>
+            <h3>Acessível</h3>
+            <p>
+              Estrutura acessível para cadeirantes, para que todos vivam a
+              experiência Hedon.
+            </p>
+          </div>
+          <div class="exp-item reveal">
+            <div class="ico">💳</div>
+            <h3>Todos os cartões</h3>
+            <p>
+              Aceitamos os principais cartões de crédito e débito, além de Pix.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section id="depoimentos">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">Quem foi, recomenda</span>
+          <h2>Nota 5.0 — e não é por acaso</h2>
+          <p>Avaliações reais de visitantes no Tripadvisor e no Google.</p>
+        </div>
+        <div class="testi-grid">
+          <div class="testi reveal">
+            <div class="stars">★★★★★</div>
+            <p>
+              "A Torrada Petrópolis é sensacional! Comida excelente e um
+              atendimento personalizado que faz a gente se sentir em casa."
+            </p>
+            <div class="who">
+              <div class="avatar">M</div>
+              <div><b>Mariana</b><span>Avaliação no Tripadvisor</span></div>
+            </div>
+          </div>
+          <div class="testi reveal">
+            <div class="stars">★★★★★</div>
+            <p>
+              "Playlist maravilhosa, ambiente acolhedor e perfeito para ir com a
+              família. As crianças amaram o espaço."
+            </p>
+            <div class="who">
+              <div class="avatar">R</div>
+              <div><b>Rodrigo</b><span>Avaliação no Tripadvisor</span></div>
+            </div>
+          </div>
+          <div class="testi reveal">
+            <div class="stars">★★★★★</div>
+            <p>
+              "Menu variado com quiches, croissants, bolos e tortas. O brunch
+              tem ótimo custo-benefício. Virou parada obrigatória em Saquarema."
+            </p>
+            <div class="who">
+              <div class="avatar">C</div>
+              <div><b>Camila</b><span>Avaliação no Google</span></div>
+            </div>
+          </div>
+        </div>
+        <p class="tripadvisor-note">
+          🏆 Reconhecido com o selo <strong>Travelers' Choice</strong> ·
+          <a
+            href="https://www.tripadvisor.com.br/Restaurant_Review-g1096016-d25553847-Reviews-HEDON_BISTRO_CAFE_BAR_LTDA-Saquarema_State_of_Rio_de_Janeiro.html"
+            target="_blank"
+            rel="noopener"
+            >ver todas as avaliações</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ VISIT ============ -->
+    <section class="exp" id="visite">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">Visite-nos</span>
+          <h2>Estamos pertinho de você</h2>
+        </div>
+        <div class="visit-grid">
+          <div class="info-card reveal">
+            <div class="info-row">
+              <div class="ico">📍</div>
+              <div>
+                <b>Endereço</b>
+                <p>
+                  Av. Saquarema, 3609 — Loja 1, Porto da Roça I<br />Saquarema/RJ
+                  · CEP 28991-350
+                </p>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="ico">🕗</div>
+              <div>
+                <b>Horário de funcionamento</b>
+                <p>Segunda a sábado: 8h30 às 20h<br />Domingo: fechado</p>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="ico">📱</div>
+              <div>
+                <b>WhatsApp / Telefone</b>
+                <p>
+                  <a
+                    href="https://wa.me/5522999073130"
+                    target="_blank"
+                    rel="noopener"
+                    >(22) 99907-3130</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="ico">📸</div>
+              <div>
+                <b>Instagram</b>
+                <p>
+                  <a
+                    href="https://www.instagram.com/hedonbistrocafe/"
+                    target="_blank"
+                    rel="noopener"
+                    >@hedonbistrocafe</a
+                  >
+                </p>
+              </div>
+            </div>
+            <a
+              class="btn btn-wa"
+              style="margin-top: 6px; justify-content: center"
+              href="https://wa.me/5522999073130?text=Ol%C3%A1!%20Quero%20reservar%20uma%20mesa%20no%20Hedon%20Bistr%C3%B4%20%E2%98%95"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm5.7 14.1c-.2.7-1.4 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5.2.6.8 2 .9 2.1.1.1.1.3 0 .5-.1.2-.2.3-.3.5l-.5.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1.1 2.2 1.4 2.5 1.5.3.1.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.3.7-.2.3.1 1.8.8 2.1 1 .3.2.5.2.6.4.1.1.1.7-.1 1.4Z"
+                />
+              </svg>
+              Reservar minha mesa agora
+            </a>
+          </div>
+          <div class="map-card reveal">
+            <div class="pin">📍</div>
+            <h3>Fácil de chegar, difícil de esquecer</h3>
+            <p>
+              Estamos na Av. Saquarema, 3609 — Porto da Roça I, a poucos minutos
+              das praias de Saquarema. Estacionamento fácil na região.
+            </p>
+            <a
+              class="btn"
+              href="https://www.google.com/maps/search/?api=1&query=Hedon+Bistr%C3%B4+Caf%C3%A9+%26+Bar+Av.+Saquarema+3609+Saquarema+RJ"
+              target="_blank"
+              rel="noopener"
+            >
+              🧭 Traçar rota no Google Maps
+            </a>
+            <span class="dist">Abre direto no seu app de mapas favorito</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="final">
+      <canvas class="fx-canvas" id="fx-final" aria-hidden="true"></canvas>
+      <div class="wrap reveal">
+        <span class="kicker" style="color: var(--gold)"
+          >Sua mesa está esperando</span
+        >
+        <h2>Que tal um brunch inesquecível hoje?</h2>
+        <p>
+          São apenas 54 lugares — nos fins de semana eles voam. Mande uma
+          mensagem agora e garanta o seu.
+        </p>
+        <a
+          class="btn btn-wa"
+          href="https://wa.me/5522999073130?text=Ol%C3%A1!%20Quero%20reservar%20uma%20mesa%20no%20Hedon%20Bistr%C3%B4%20%E2%98%95"
+          target="_blank"
+          rel="noopener"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm5.7 14.1c-.2.7-1.4 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5.2.6.8 2 .9 2.1.1.1.1.3 0 .5-.1.2-.2.3-.3.5l-.5.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1.1 2.2 1.4 2.5 1.5.3.1.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.3.7-.2.3.1 1.8.8 2.1 1 .3.2.5.2.6.4.1.1.1.7-.1 1.4Z"
+            />
+          </svg>
+          Reservar pelo WhatsApp
+        </a>
+        <p class="hero-note">
+          ✓ Resposta rápida · ✓ Sem compromisso · ✓ Aberto seg–sáb, 8h30–20h
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap foot">
+        <span
+          ><b
+            style="
+              font-family: &quot;Fraunces&quot;, serif;
+              color: var(--cream);
+            "
+            >Hedon Bistrô</b
+          >
+          Café & Bar — Saquarema/RJ</span
+        >
+        <span
+          ><a
+            href="https://www.instagram.com/hedonbistrocafe/"
+            target="_blank"
+            rel="noopener"
+            >Instagram</a
+          >
+          ·
+          <a href="https://wa.me/5522999073130" target="_blank" rel="noopener"
+            >WhatsApp</a
+          >
+          · <a href="mailto:hedonbistrocafeebar@gmail.com">E-mail</a></span
+        >
+      </div>
+    </footer>
+
+    <!-- Sticky mobile CTA -->
+    <div class="sticky-cta">
+      <a
+        class="btn btn-wa"
+        href="https://wa.me/5522999073130?text=Ol%C3%A1!%20Quero%20reservar%20uma%20mesa%20no%20Hedon%20Bistr%C3%B4%20%E2%98%95"
+        target="_blank"
+        rel="noopener"
+      >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm5.7 14.1c-.2.7-1.4 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5.2.6.8 2 .9 2.1.1.1.1.3 0 .5-.1.2-.2.3-.3.5l-.5.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1.1 2.2 1.4 2.5 1.5.3.1.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.3.7-.2.3.1 1.8.8 2.1 1 .3.2.5.2.6.4.1.1.1.7-.1 1.4Z"
+          />
+        </svg>
+        Reservar mesa pelo WhatsApp
+      </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
